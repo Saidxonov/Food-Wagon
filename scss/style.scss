@@ -24,6 +24,31 @@ a {
   text-decoration: none;
 }
 
+/* Scroll umumiy shakli */
+
+::-webkit-scrollbar {
+  width: 12px;
+  /* skrollning eni */
+  background-color: #f5f5f5;
+  /* track fondi */
+}
+
+/* Scroll tutqichining shakli va rangi */
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  /* tutqich rangi */
+  border-radius: 6px;
+  /* burchaklarini yumaloqlash */
+}
+
+/* Scroll hover holatidagi stili */
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+  /* hover qilinganda rangi o'zgaradi */
+}
+
 .head {
   display: flex;
   align-items: center;
